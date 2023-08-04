@@ -148,6 +148,10 @@ body {
   background-color: #fff;
 }
 
+.heading-company {
+  font-size: 6.2rem;
+}
+
 .section-company div {
   padding: 100px;
   font-size: 50px;
@@ -196,6 +200,10 @@ body {
   font-size: 30px;
   text-align: center;
   align-items: center;
+}
+
+.heading-portfolio {
+  font-size: 3.2rem;
 }
 
 .project-img {

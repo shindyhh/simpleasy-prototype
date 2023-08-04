@@ -7,3 +7,9 @@
     max-width: 55rem;
   }
 }
+
+@media (max-width: 63em) {
+  html {
+    font-size: 50%;
+  }
+}
