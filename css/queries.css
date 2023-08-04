@@ -1,0 +1,9 @@
+@media (max-width: 84em) {
+  .hero {
+    max-width: 100rem;
+  }
+
+  .section-company iframe {
+    max-width: 55rem;
+  }
+}
