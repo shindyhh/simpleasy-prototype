@@ -5,6 +5,7 @@
   }
 
   .section-company iframe {
+    max-height: 50rem;
     max-width: 55rem;
   }
 }
@@ -16,20 +17,22 @@
   }
 
   .section-company {
+    display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
     padding: 0 9.6rem;
   }
 
   .section-company iframe {
-    max-width: 80rem;
+    max-height: 40rem;
+    max-width: 60rem;
   }
 }
 
 /* below 944px (tablets) */
-@media (max-width: 59em) {
+/* @media (max-width: 59em) {
 
-}
+} */
 
 /* below 544px (phones) */
 @media (max-width: 34em) {
@@ -53,14 +56,7 @@
     height: 100vh;
     transform: translateX(100%);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s ease-in;
-
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
+    display: none;
   }
 
   .section-hero {
@@ -75,8 +71,12 @@
     padding: 0 0;
   }
 
-  .section-company div {
+  .company {
     padding: 15px;
+  }
+
+  .heading-company {
+    font-size: 40%;
   }
 
   .section-company iframe {
