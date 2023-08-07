@@ -211,6 +211,10 @@ body {
   font-size: 3.2rem;
 }
 
+.heading-portfolio span {
+  font-size: 2rem;
+}
+
 .project-img {
   width: 30%;
 }
