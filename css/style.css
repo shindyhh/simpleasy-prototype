@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -195,23 +196,23 @@ body {
 }
 
 
-.section-portfolio {
+.section-services {
   padding: 9.6px 0;
   background-color: #fafbf0 ;
 }
 
-.section-portfolio div {
+.section-services div {
   padding-bottom: 20px;
   font-size: 30px;
   text-align: center;
   align-items: center;
 }
 
-.heading-portfolio {
+.heading-services {
   font-size: 3.2rem;
 }
 
-.heading-portfolio span {
+.heading-services span {
   font-size: 2rem;
 }
 
