@@ -47,6 +47,10 @@ body {
   transition: all 0.3s;
 }
 
+.main-nav-list .active {
+  color: #cdd968
+}
+
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #cdd968 ;
