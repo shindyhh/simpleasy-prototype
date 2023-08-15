@@ -212,6 +212,13 @@ body {
   align-items: center;
 }
 
+.flex {
+  display: flex;
+  flex-direction: grid;
+  align-items: end;
+  justify-content: center;
+}
+
 .heading-services {
   font-size: 2.6rem;
 }
