@@ -27,6 +27,13 @@
     max-height: 40rem;
     max-width: 60rem;
   }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols,
+  .grid--5-cols {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* below 944px (tablets) */
