@@ -216,7 +216,6 @@ body {
   display: flex;
   flex-direction: grid;
   align-items: end;
-  justify-content: center;
 }
 
 .heading-services {
@@ -230,6 +229,7 @@ body {
 .subheading-services {
   font-size: 1.8rem;
   padding-bottom: 35px;
+  padding-left: 30px;
 }
 
 .project-img {
